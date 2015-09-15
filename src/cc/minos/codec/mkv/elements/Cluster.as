@@ -75,7 +75,7 @@ package cc.minos.codec.mkv.elements {
 				f.index = index;
 				f.dataType = track_number == 1 ? 0x09 : 0x08;
 				f.frameType = frame_type == 1 ? (1 << 4) : (2 << 4);
-				f.codecId = 2;
+				f.codecId = 7;
 
 				if (track_number == 1)
 				{
